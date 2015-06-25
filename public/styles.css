@@ -1,15 +1,17 @@
 body {
   font-family: Helvetica, arial, sans-serif;
   font-size: 12px;
-  color: red;
+  color: #283B3F;
 }
 
-/*.content_wrapper {
+#total_wrapper {
+  width: 1200px;
   margin: 0 auto;
-  width: 90%;
-  line-height: 20px;  
+}
 
-}*/
+#content_wrapper {
+
+}
 
 #nav_wrapper {
   width: 100%;
@@ -57,6 +59,7 @@ ul.navigation a {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: bolder;
+  color: #283B3F;
 }
 
 ul.navigation a:hover {
@@ -68,7 +71,6 @@ ul.navigation a:hover {
 
 /*Footer Below*/
 footer {
-  background-color: #FFB00F;
   display: inline-block;
   margin: 0 auto; 
   font-size: 18px;
@@ -84,8 +86,6 @@ footer {
   bottom: -10px;
   font-size: 14px;
   letter-spacing: 3px;
-  color: white;
-
 }
 
 #facebook_link {
@@ -94,7 +94,8 @@ footer {
   left: -40px;
   top: -35px;
   letter-spacing: 1px;
-  color: white;
+  text-decoration: none;
+  color: #283B3F;
 }
 
 #facebook_link:hover {
