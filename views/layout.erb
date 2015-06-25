@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+    <title><%= @title %></title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+
+
+
+
+    <nav>
+      <img id="logo" src="images/logo.png">
+      <div id="unordered_list_wrapper">
+        <ul class="navigation">
+          <li><a href="http://localhost:4567/home">Home</a></li>
+          <li><a href="http://localhost:4567/order">Order</a></li>
+          <li><a href="http://localhost:4567/runner">Become A Runner</a></li>
+          <li><a href="http://localhost:4567/contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="content_wrapper">
+    
+      <%= yield %>
+
+    </div>
+
+
+
+    <footer>
+      <ul id="contact_info">
+        <li>Ice Rush</li>
+        <li>90 John St, Suite 404</li>
+        <li>New York, NY 10038</li>
+        <li>(817) 123-4567</li>
+      </ul>
+    
+      <a id="facebook_link" href="http://www.facebook.com" target="_blank">Like us on Facebook</a>
+    </footer>
+  </body> 
+</html>
