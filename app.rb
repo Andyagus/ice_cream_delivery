@@ -1,4 +1,6 @@
 require 'sinatra'
+require 'mandrill'
+
 
 get '/home' do 
   @title = 'Home'
