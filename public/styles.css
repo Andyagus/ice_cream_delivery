@@ -6,6 +6,7 @@ body {
 }
 
 #total_wrapper {
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -82,13 +83,63 @@ ul.navigation a:hover {
 
 /*ORDER (Andy)*/
 
+.order_wrapper{
+  border: 1px black solid;
+}
+
+.order_content h2{
+  color:black;
+  text-align: center;
+}
+
+.order_mainimage img{
+  width: 600px;
+  height: auto;
+  padding-left: 300px;
+}
+
+.order_selection{
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+}
+
+.order_selection h4{
+}
+
+.order_selection p{
+}
+
+.order_forms{
+}
 
 
+.order_forms form{
+  margin: 0 auto;
+}
 
+.order_signin_email{
+  float: left;
+}
 
+.order_signin_password{
+  float: left;
+}
 
+.order_button {
+margin: 0 auto;
+width: 150px;
+border: 1px black solid;
+}
 
+.order_button p {
+text-align: center;
 
+}
+
+.order_clear {
+  clear: both;
+}
 
 /*BECOME A RUNNER (Jake)*/
 
