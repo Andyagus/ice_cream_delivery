@@ -76,7 +76,6 @@ ul.navigation a:hover {
 
 
 
-
 /*ORDER (Andy)*/
 
 h2 {
@@ -89,8 +88,8 @@ h2 {
 .order_contents {
   width: 1200px;
   border: 1px red solid;
-  height: 650px
-=======
+}
+
 .order_wrapper{
   border: 1px black solid;
 }
