@@ -22,6 +22,18 @@ get '/contact' do
   erb :contact
 end
 
+get '/send-comments' do
+# mandrill = Mandrill::API.new ENV['MANDRILL_APIKEY']
+# message = {
+#   to: [{"type" => "to",
+#         "email" => "jacobemeier@gmail.com",
+#         "name" => "Jacob"}],
+#   subject:
+#   from: 'jacobemeier@gmail.com'
+#   text:  @themessage}                 }
+# puts mandrill.message.send(message)            
+end
+
 post '/congrats' do 
   @title = 'Congradulations!'
   @username = params['username']

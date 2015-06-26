@@ -138,7 +138,27 @@ text-align: center;
 }
 
 /*BECOME A RUNNER (Jake)*/
+/*#top_wrapper {
+  border: 3px black solid;
+}*/
 
+#runner_photo_wrapper {
+  background-image: url(images/deliverybanner.jpg);
+  background-size: cover;
+  height: 750px;
+  z-index: -1;
+}
+
+#application_wrapper {
+  border: 2px black solid;
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  opacity: 0.65;
+  position: fixed;
+  margin-left: 860px;
+  z-index: +1;
+}
 
 
 
