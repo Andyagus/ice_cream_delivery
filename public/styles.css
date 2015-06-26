@@ -79,11 +79,25 @@ ul.navigation a:hover {
 
 /*ORDER (Andy)*/
 
+h2 {
+  font-size: 60px;
+  padding-bottom: 20px;
+  margin-top: 100px;
+}
+
+
+.order_contents {
+  width: 1200px;
+  border: 1px red solid;
+  height: 650px
+}
+
+
 .order_wrapper{
   border: 1px black solid;
 }
 
-.order_content h2{
+.order_contents h2{
   color:black;
   text-align: center;
 }
@@ -91,51 +105,80 @@ ul.navigation a:hover {
 .order_mainimage img{
   width: 600px;
   height: auto;
-  padding-left: 300px;
+  float: left;
+  margin-left: 50px;
 }
 
 .order_selection{
-  margin: 0 auto;
   text-align: center;
   width: 300px;
+  float: left;
+  margin-left: 40px;
 }
 
 .order_selection h4{
+  font-size: 20px;
 }
 
 .order_selection p{
+  
 }
 
 .order_forms{
 }
 
 
-.order_forms form{
-  margin: 0 auto;
+.action_forms{
+width: 600px;
+margin: 0 auto;
+}
+  
+
+#order_t01{
 }
 
-.order_signin_email{
-  float: left;
+#order_t02{
 }
 
-.order_signin_password{
-  float: left;
+
+
+#order_t01 h4{
+font-weight: lighter;
+margin-right: 20px;
 }
+
+#order_t02 h4{
+  font-weight: lighter;
+  margin-right: 20px;
+}
+
 
 .order_button {
-margin: 0 auto;
-width: 150px;
+width: 100px;
 border: 1px black solid;
+float: left;
+margin-left: 100px;
 }
 
 .order_button p {
-text-align: center;
-
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .order_clear {
   clear: both;
 }
+
+.centerwords{
+  text-align: center;
+  margin: 20px;
+  margin-right:
+}
+
+.guest {
+  margin-bottom: 100px;
+}
+
 
 /*BECOME A RUNNER (Jake)*/
 

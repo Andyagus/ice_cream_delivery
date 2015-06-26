@@ -1,6 +1,6 @@
 <div class = "order_wrapper"> 
-
-  <div class = "order_content">
+ 
+  <div class="order_contents">
       <h2> Choose your Ice Cream </h2>
     
       <div class = "order_mainimage">
@@ -9,56 +9,74 @@
   
      
       <div class = "order_selection">
-        <h4> Vanilla </h4>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci praesentium ad expedita sapiente vero commodi, quam exercitationem aliquam sed libero cum earum qui amet nisi? Quos quo excepturi culpa, architecto? </p>
+          <h4> Vanilla </h4>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci praesentium ad expedita sapiente vero commodi, quam exercitationem aliquam sed libero cum earum qui amet nisi? Quos quo excepturi culpa, architecto? </p>
+
+        <div class = "order_button">
+          <p> Order now </p>
+        </div>
       </div>
-      
-      <div class = "order_button">
-        <p> Order now </p>
-      </div>
+  </div>
+          <div class = "order_clear"></div>
+
+<div class = "action_forms">
+      <div class = "centerwords"> <h3> Returning Users </h3> 
+
+    <FORM METHOD="POST" ACTION="/order-success">
+        <table id="order_t01">
+          <tr>
+            <td>
+               <h4> Username</h4>
+            </td>
+            <td>
+              <input type="text" name="name_existing" placeholder="Email"> 
+            </td>
+
+            <td> 
+              <h4> Password  </h4> 
+            </td>
+            <td> 
+              <input type="password" name="password_existing" placeholder="Password">
+            </td> 
+            <td> <input type="submit" value="checkout"> </td>            
+
+          </tr>   
+        </table>
+             
+          <div class="guest">   <h5> Checkout as Guest </h5> </div>
+         
+    </FORM>
+   
+<div class="centerwords"> 
+<h3> Guest Checkout </h3> </div>
+   
+    <FORM METHOD="POST" ACTION="/order-signup">  
+        <table id="order_t02">
+
+          <tr>
+            <td> <h4> Name </h4> </td>
+            <td> <input type="text" name="firstname_guest" Placeholder="First Name"> </td>
+            <td> <input type="text" name="lastname_guest" Placeholder="Last Name"> </td>
+          </tr>
+
+           <tr>
+            <td> <h4> Email </h4> </td>
+            <td> <input type="text" name="email_guest"> </td>
+            </tr>
+          <tr>
+            <td> <h4> Number </h4> </td>
+            <td> <input type="number" name="phone_guest"> </td>            
+         </tr>
+
+          <tr>
+            <td> <h4> Password </h4> </td>
+            <td> <input type="password" name="password_guest"></td>
+            <td> <input type="password" name="confirmpassword_guest" Placeholder="Confirm Password" </td>
+            <td> <input type="submit" value= "checkout"> </td>            
+          </tr>
+      </form>
+     </table> 
+     </FORM>   
+  </div> 
 
   </div>
-
-  <div class = "order_forms">
-    <div class = "order_signin">
-        <form action="/made-contact" method="POST">
-          
-          <div class="order_signin_email">
-              <h4> Username (Email) </h4>
-              <label for="name"></label>
-              <input type="text" name="name">
-           </div>
-           <div class="order_signin_password"> 
-              <h4> Password </h4>
-              <label for="email"></label>
-              <input type="text" name="email">
-              <input type="submit">
-            </div>
-              <div class = "order_clear"></div>
-        </form>
-    </div>
-
-    <div class = "order_continueguest">
-        <form action="/made-contact" method="POST">
-            <h4> First Name </h4>
-            <label for="name"></label>
-            <input type="text" name="name">
-            <h4> Last Name </h4>
-            <label for="name"></label>
-            <input type="text" name="name">
-            <h4> Email </h4>
-            <label for="email"></label>
-            <input type="text" name="email">
-            <h4> Phone Number </h4>
-            <label for="phone"></label>
-            <input type="text" name="phone">
-            <input type="submit">
-            <h4> Password </h4>
-            <label for="phone"></label>
-            <input type="password" name="phone">
-            <input type="submit">
-        </form>  
-    </div>   
-  </div>
-    <div class = "order_clear"></div>
-</div>
