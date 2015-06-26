@@ -35,9 +35,10 @@ sending = send_comments.messages.send message
 puts sending         
 end
 
-post '/comment_recieved' do
-  @your_message = params['comment_box']
-  'Thank you for your message.  We will get back to you shortly'
+post '/comment_received' do
+  @your_message = params['comment']
+  @email_name = params['name']
+  "#{@email_name} thank you for your message.  We will get back to you shortly."
 end
 
 post '/congrats' do 
