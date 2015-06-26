@@ -15,6 +15,8 @@ body {
   width: 60px;
   display: inline-block;
   padding: 20px 0px 0px 35px;
+  position: fixed;
+  z-index: 10;
 }
 
 nav {
@@ -63,18 +65,73 @@ ul.navigation a:hover {
 /*HOME (Preston)*/
 
 
-#home_photo1_wrapper {
-  background-image: url(images/WDI.jpg);
+#home_first_div {
+  background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4) ), url(images/background-ice-cream.jpg);
   background-size: cover;
-  height: 750px
+  height: 780px;
+  margin-top: 10px;
 }
 
+#intro_words {
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 1.1em
+}
 
+#home_second_div {
+  height: 700px;
+}
 
+#iphone {
+  height: 300px;
+  z-index: 2;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  left: 325px;
+  top: 200px;
+}
 
+#macbook {
+  height: 500px;
+  z-index: 1;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  bottom: 300px;
+  right: 25px;
+}
 
+#home_second_div {
+  background: white linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05) );
+  padding-top: 100px;
+  height: 550px;
+}
 
+#fast_and_easy {
+  word-spacing: 5px;
+  letter-spacing: 1.5px;
+}
 
+.steps {
+  width: 200px;
+  padding: 50px 50px 10px 50px;
+}
+
+.step_nums {
+  text-align: center;
+  display: inline-block;
+  padding: 0px 150px 0px 140px;
+  font-size: 2em;
+}
+
+.step_description {
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0px 60px 0px 45px;
+  font-size: 1.5em;
+}
 
 
 /*ORDER (Andy)*/
@@ -186,10 +243,6 @@ footer {
 
 #facebook_link:hover {
   text-decoration: underline;
-}
-
-h3 {
-  letter-spacing: 1px;
 }
 
 p {
