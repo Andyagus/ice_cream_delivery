@@ -168,7 +168,8 @@ text-align: center;
 }
 
 #apply_runner_forms {
-  
+  line-height: 20px;
+  text-align: center;
 }
 
 
@@ -178,6 +179,31 @@ text-align: center;
 
 /*CONTACT (Jake)*/
 
+#comment_form {
+   border: 2px black solid;
+   width: 1000px;
+   margin: 0 auto;
+   margin-top: 80px;
+}
+
+#comment_box {
+   border: 1px red solid;
+   width: 550px;
+   height: 200px;
+   resize: none;
+}
+
+#comment_name {
+  width: 160px;
+}
+
+#comment_email {
+  width: 160px;
+}
+
+#comment_submit {
+  width: auto;
+}
 
 
 
