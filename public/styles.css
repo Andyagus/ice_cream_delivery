@@ -83,21 +83,30 @@ ul.navigation a:hover {
   border: 1px black solid;
 }
 
+.order_content{
+  border: 1px red solid;
+}
+
 .order_content h2{
+  font-size: 50px;
   color:black;
+  font-weight: lighter;
   text-align: center;
 }
 
 .order_mainimage img{
-  width: 600px;
+  width: 800px;
   height: auto;
-  padding-left: 300px;
+  float: left;
 }
 
 .order_selection{
   margin: 0 auto;
   text-align: center;
   width: 300px;
+  float: left;
+  border: 1px red solid;
+  margin-top: 125px;
 }
 
 .order_selection h4{
@@ -106,25 +115,33 @@ ul.navigation a:hover {
 .order_selection p{
 }
 
-.order_forms{
-}
 
-
-.order_forms form{
+#formations{
+  width: 500px;
   margin: 0 auto;
 }
 
-.order_signin_email{
+#formation1{
   float: left;
 }
 
-.order_signin_password{
-  float: left;
+#formation2{
+  float:left;
+}
+
+#order_t01  {
+}
+
+#order_t02 {
+margin-top: 20px;
+border-collapse:collapse;
 }
 
 .order_button {
-margin: 0 auto;
 width: 150px;
+float: left;
+margin: 0 auto;
+margin-left: 70px;
 border: 1px black solid;
 }
 
