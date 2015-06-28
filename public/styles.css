@@ -79,6 +79,20 @@ ul.navigation a:hover {
 
 /*ORDER (Andy)*/
 
+#ice_creams .item{
+  width: 200px;
+}
+
+.divBox{
+  width: 30px;
+  height: 200px;
+  float: left;
+  padding-left: 20px;
+}
+
+.item {
+}
+
 .order_header p{
   text-align: center;
   font-size: 2em;
@@ -92,12 +106,6 @@ ul.navigation a:hover {
   width: 1000px;
 }
 
-.ice_image1 {
-  width: 600px;
-  height: 400px;
-  float: left; 
-  background-color: red;
-}
 
 .order_mainimage img{
   width: 650px;
