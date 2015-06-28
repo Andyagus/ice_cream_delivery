@@ -151,8 +151,8 @@ text-align: center;
 
 #application_wrapper {
   border: 2px black solid;
-  width: 400px;
-  height: 600px;
+  width: 336px;
+  height: 500px;
   background-color: white;
   opacity: 0.65;
   position: fixed;
@@ -164,18 +164,55 @@ text-align: center;
   height: 50px;
   width: auto;
   text-align: center;
+}
+
+#apply_header {
+  font-weight: lighter;
   color: #283B3F;
 }
 
 #apply_runner_forms {
   line-height: 20px;
   text-align: center;
+  line-height: 8px;
 }
 
+.app_form {
+  height: 50px;
+  width: 250px;
+  font-size: 16px;
+}
 
+#runner_button {
+  height: 50px;
+  width: 256px;
+  margin-top: 30px;
+}
 
+#application_sell {
+ margin-top: 30px;
+ margin-left: 80px;
+ height: 600px;
+ width: 760px;
+ }
 
+#app_sell_header {
+  font-size: 36px;
+  font-weight: lighter;
+}
 
+#sell_text {
+  margin-top: 15px;
+}
+
+.app_sell_header2 {
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+.app_sell_p {
+  font-size: 12px;
+}
 
 /*CONTACT (Jake)*/
 
