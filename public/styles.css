@@ -79,20 +79,111 @@ ul.navigation a:hover {
 
 /*ORDER (Andy)*/
 
-#ice_creams .item{
-  width: 200px;
-}
-
-.divBox{
-  width: 30px;
-  height: 200px;
+.order_frame {
+  width: 514px; 
+  height: 400px;
   float: left;
-  padding-left: 20px;
+  overflow: hidden;
 }
 
-.item {
+.wide_icecream {
+  position: relative;
+  left: 0px;
 }
 
+.mover {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 100px;
+  top: 400px;
+  z-index: 1;
+  padding: 20px
+}
+
+.mover2 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 160px;
+  top: 300px;
+  z-index: 1;
+  padding: 20px
+
+}
+
+.mover3 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 260px;
+  top: 250px;
+  z-index: 1;
+    padding: 20px
+
+}
+
+.mover4 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 365px;
+  top: 250px;
+  z-index: 1;
+    padding: 20px
+
+}
+
+.mover5 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 460px;
+  top: 300px;
+  z-index: 1;
+    padding: 20px
+
+}
+
+.mover6 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 525px;
+  top: 400px;
+  z-index: 1;
+  padding: 20px
+
+}
+
+/*.mover3 {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  float: left;
+}
+
+.mover4 {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  float: left;
+}
+
+.mover5 {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  float: left;
+}
+
+.mover6 {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  float: left;
+}
+*/
 .order_header p{
   text-align: center;
   font-size: 2em;
@@ -133,7 +224,7 @@ margin: 0 auto;
 }
 
 .about_flavor p{
-  text-align: justify;
+  text-align: left;
   line-height: 1.3em;
 }
 
