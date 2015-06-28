@@ -79,80 +79,131 @@ ul.navigation a:hover {
 
 /*ORDER (Andy)*/
 
+.order_header p{
+  text-align: center;
+  font-size: 2em;
+}
+
 .order_wrapper{
-  border: 1px black solid;
+  width: 1200px;
 }
 
 .order_content{
-  border: 1px red solid;
+  width: 1000px;
 }
 
-.order_content h2{
-  font-size: 50px;
-  color:black;
-  font-weight: lighter;
-  text-align: center;
+.ice_image1 {
+  width: 600px;
+  height: 400px;
+  float: left; 
+  background-color: red;
 }
 
 .order_mainimage img{
-  width: 800px;
+  width: 650px;
   height: auto;
   float: left;
 }
 
 .order_selection{
-  margin: 0 auto;
   text-align: center;
   width: 300px;
   float: left;
-  border: 1px red solid;
-  margin-top: 125px;
+  margin-left: 50px;
+  margin-top: 100px;
 }
 
-.order_selection h4{
+.flavor p{
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.about_flavor {
+width: 200px;
+margin: 0 auto;
+}
+
+.about_flavor p{
+  text-align: justify;
+  line-height: 1.3em;
 }
 
 .order_selection p{
 }
 
 
-#formations{
-  width: 500px;
-  margin: 0 auto;
-}
-
-#formation1{
-  float: left;
-}
-
-#formation2{
-  float:left;
-}
-
-#order_t01  {
-}
-
-#order_t02 {
-margin-top: 20px;
-border-collapse:collapse;
-}
-
 .order_button {
-width: 150px;
-float: left;
+width: 100px;
+height: 25px;
 margin: 0 auto;
-margin-left: 70px;
-border: 1px black solid;
-}
-
-.order_button p {
-text-align: center;
-
+border: 1px solid black;
+padding-top: 10px;
+font-weight: bold;
 }
 
 .order_clear {
   clear: both;
 }
+
+#formations {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#formation1 {
+  width:200px;
+  padding: 50px;
+}
+
+#formation1{
+  width: 200px;
+  margin: 0 auto;
+}
+
+#formations2{
+  width: 600px;
+  margin: 0 auto;
+}
+
+.formcolumn1{
+  float: left
+}
+
+input::-webkit-input-placeholder {
+   color: lightgrey;
+   text-transform: uppercase;
+}
+.form_head p{
+  color:black;
+  font-size: 1.5em;
+  text-align: center;
+  padding-left: 40px;
+}
+
+.form_text input{
+  width: 250px;
+  height: 50px;
+}
+
+.form_button input {
+border-radius: 14px;
+width: 255px;
+border: 1px solid grey;
+height: 50px;
+background-color: white;
+text-align: center;
+}
+
+
+
+
+
+
+#guest_continue{
+  color: grey;
+}
+
 
 /*BECOME A RUNNER (Jake)*/
 

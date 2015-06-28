@@ -1,87 +1,83 @@
+
 <div class = "order_wrapper"> 
-
-  <div class = "order_content">
-      <h2> Choose your Flavor </h2>
-    
-      <div class = "order_mainimage">
-        <img src="images/order_icecream.png">
-      </div>
-  
-     
-      <div class = "order_selection">
-        <h4> Vanilla </h4>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci praesentium ad expedita sapiente vero commodi, quam exercitationem aliquam sed libero cum earum qui amet nisi? Quos quo excepturi culpa, architecto? </p>
-   
+  <div class="order_header"> <p> Choose your Flavor </p> </div>
+    <div class = "order_content">     
         
-        <div class = "order_button">
-          <p> Order now </p>
-        </div>
+      <div class = "divBox">
+        show Div1
+      <div class="item">
+            <img src="images/cones/french_vanilla.png">
       </div>
-  </div>
+      </div>
 
-  <div class = "order_clear"></div>
+      <div class = "divBox">
+          show Div2
+      <div class="item">
+          Div 2
+      </div>
+      </div>
 
-    <div id="formations">
-      <div id="formation1">
-      <FORM METHOD="POST" ACTION="/order-success">
-          <table id="order_t01">
-            <tr>
-              <td> <h3> Sign In </h3> <td>
-            </tr>
-            <tr>
-              <td>
-                 <h4> Username</h4>
-              </td>
-              <td>
-                <input type="text" name="name_existing" placeholder="Email"> 
-              </td>
+      <div class = "divBox">
+          show Div3
+      <div class="item">
+          Div 3
+      </div>
+      </div>
 
-             <td> 
-                <h4> Password  </h4> 
-              </td>
-              <td> 
-                <input type="password" name="password_existing" placeholder="Password">
-              </td> 
-              <td> <input type="submit" value="checkout"> </td>                    
-              </tr> 
-          </table>
-        </form>
+          <!-- <img src="images/order_icecream.png"> -->
+        </div>
+    
+        <div class = "order_selection">
+          <div class = "flavor" > <p> Vanilla </p> </div>
+          <div class = "about_flavor">
+           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci praesentium ad expedita sapiente vero commodi, quam exercitationem aliquam sed libero cum earum qui amet nisi? Quos quo excepturi culpa, architecto? </p>
+          </div>
+          <div class = "order_button"> ORDER NOW </div>
+        </div>
     </div>
-  <div id="guest_continue">
-    <h> Continue as Guest </h4> 
-  </div>
-     <div id="formation1">   
+
+    <div class = "order_clear"></div>
+
+  <div id="formations"> 
+    <div id="formation1">
+      <FORM METHOD="POST" ACTION="/order-success">
+          <div class="form_head"> 
+            <p> Sign In <p> 
+          </div>
+          <div class="form_text"> 
+            <input type="text" name="name_existing" placeholder="Email"> 
+            <input type="password" name="password_existing" placeholder="Password">
+          </div> <br>
+          <div class="form_button">  
+            <input type="submit" value="checkout">
+          </div> 
+          <div id="guest_continue"> 
+            <p> Continue as Guest </p>
+          </div>
+
+      </form>
+    </div>
+       
+
+
+    <div id="formations2">
       <FORM METHOD="POST" ACTION="/order-signup">  
-          <table id="order_t02">
+          <div class="form_head"> 
+            <p> Guest Checkout <p> 
+          </div>
+           <div class="form_text">
+            <input type="text" name="firstname_guest" Placeholder="First Name"> 
+            <input type="text" name="lastname_guest" Placeholder="Last Name"> 
+            <input type="text" name="email_guest" Placeholder="Email">
+            <input type="number" name="phone_guest" Placeholder="Phone">
+            <input type="password" name="password_guest" Placeholder="Password">
+            <input type="password" name="confirmpassword_guest" Placeholder="Confirm Password"> 
+          </div>
+          <div class="form_button">
+            <input type="submit" value= "checkout">          
+          </div>
+     </form>     
+    </div> <!-- formations2 end -->
+  </div> <!-- large formations end -->
 
-            <tr>
-              <td> <h3> Guest </h3> <td>
-            </tr>
-            <tr> 
-              <td> <h4> Name </h4> </td>
-              <td> <input type="text" name="firstname_guest" Placeholder="First Name"> </td>
-              <td> <input type="text" name="lastname_guest" Placeholder="Last Name"> </td>
-            </tr>
-
-             <tr>
-              <td> <h4> Email </h4> </td>
-              <td> <input type="text" name="email_guest"> </td>
-              </tr>
-            <tr>
-              <td> <h4> Number </h4> </td>
-              <td> <input type="number" name="phone_guest"> </td>            
-           </tr>
-
-            <tr>
-              <td> <h4> Password </h4> </td>
-              <td> <input type="password" name="password_guest"></td>
-              <td> <input type="password" name="confirmpassword_guest" Placeholder="Confirm Password"> </td>
-              <td> <input type="submit" value= "checkout"> </td>            
-            </tr>
-            </table>
-          </form>     
-     </div> 
-  </div>
-  <div class = "order_clear"></div>
-
-</div>
+</div> <!-- main wrapper  -->
