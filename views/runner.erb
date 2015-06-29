@@ -4,30 +4,30 @@
       <h1 id="apply_header">Apply Here</h1>
     </div>
     <div id = "apply_runner_forms">
-        <form action="/application-recieved" method="POST">
+        <form onsubmit="return" name="application" action="/application-received" method="POST">
             <!-- First Name -->
             <label for="name"></label>
-            <input class="app_form" type="text" name="name", placeholder= " First Name">
+            <input class="app_form" data-validate="required" type="text" name="first_name", placeholder= " First Name">
             <br>
             <br>
             <!-- Last Name -->
             <label for="name"></label>
-            <input class="app_form" type="text" name="name", placeholder= " Last Name">
+            <input class="app_form" data-validate="required" type="text" name="last_name", placeholder= " Last Name">
             <br>
             <br>
             <!-- Email -->
             <label for="email"></label>
-            <input class="app_form" type="text" name="email", placeholder= " Email Address">
+            <input class="app_form" data-validate="required" type="text" name="email", placeholder= " Email Address">
             <br>
             <br>
             <!-- Phone -->
             <label for="phone"></label>
-            <input class="app_form" type="text" name="phone", placeholder= " Phone Number">
+            <input class="app_form" data-validate="required" type="text" name="phone", placeholder= " Phone Number">
             <br>
             <br>
             <!-- City -->
             <label for="city"></label>
-            <input class="app_form" type="text" name="city", placeholder= " City">
+            <input class="app_form" data-validate="required" type="text" name="city", placeholder= " City">
 
             <button id="runner_button" input type="submit"> Become a Runner </button>
         </form>  
@@ -51,7 +51,7 @@
     <p class="app_sell_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nemo quisquam rerum consequuntur esse, aspernatur ea molestias autem porro. Iusto aliquam quas cum dignissimos nulla maxime odit repellat rerum aperiam!</p>
 
     <br>
-    <h2= class="app_sell_header2"> Your Compensation </h2>
+    <h2= class="app_sell_header2"> Our Requirements </h2>
 
     <p class="app_sell_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nemo quisquam rerum consequuntur esse, aspernatur ea molestias autem porro. Iusto aliquam quas cum dignissimos nulla maxime odit repellat rerum aperiam!</p>
 </div>
