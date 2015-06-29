@@ -138,9 +138,6 @@ text-align: center;
 }
 
 /*BECOME A RUNNER (Jake)*/
-/*#top_wrapper {
-  border: 3px black solid;
-}*/
 
 #runner_photo_wrapper {
   background-image: url(images/deliverybanner.jpg);
@@ -165,14 +162,11 @@ text-align: center;
 }
 
 #application_wrapper {
-  border: 2px black solid;
   width: 336px;
   height: 500px;
-  background-color: white;
-  opacity: 0.65;
   position: fixed;
-  margin-left: 860px;
-  z-index: +1;
+  margin-left: 862px;
+  border: 1px black solid;
 }
 
 #title_apply {
@@ -190,6 +184,10 @@ text-align: center;
   line-height: 20px;
   text-align: center;
   line-height: 8px;
+
+}
+
+#apply_runner_forms input{
 }
 
 .app_form {
@@ -202,6 +200,7 @@ text-align: center;
   height: 50px;
   width: 256px;
   margin-top: 30px;
+
 }
 
 #application_sell {
