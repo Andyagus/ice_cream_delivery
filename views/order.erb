@@ -29,12 +29,12 @@
     </div>
 
     <div class = "order_clear"></div>
-
+      <div class="spacer"></div>
   <div id="formations"> 
     <div id="formation1">
-      <FORM METHOD="POST" ACTION="/order-success">
+      <FORM METHOD="POST" ACTION="/order-success" >
           <div class="form_head"> 
-            <p> Sign In <p> 
+            <p> SIGN IN <p> 
           </div>
           <div class="form_text"> 
             <input type="text" name="name_existing" placeholder="Email"> 
@@ -44,7 +44,7 @@
             <input type="submit" value="checkout">
           </div> 
           <div id="guest_continue"> 
-            <p> Continue as Guest </p>
+            <p> CONTINUE AS GUEST </p>
           </div>
 
       </form>
@@ -55,17 +55,23 @@
     <div id="formations2">
       <FORM METHOD="POST" ACTION="/order-signup">  
           <div class="form_head"> 
-            <p> Guest Checkout <p> 
+            <p> GUEST CHECKOUT <p> 
           </div>
            <div class="form_text">
-            <input type="text" name="firstname_guest" Placeholder="First Name"> 
-            <input type="text" name="lastname_guest" Placeholder="Last Name"> 
-            <input type="text" name="email_guest" Placeholder="Email">
-            <input type="number" name="phone_guest" Placeholder="Phone">
-            <input type="password" name="password_guest" Placeholder="Password">
-            <input type="password" name="confirmpassword_guest" Placeholder="Confirm Password"> 
+            <div class="form_group1">
+               <input type="text" name="firstname_guest" Placeholder="  First Name"> 
+               <input type="text" name="lastname_guest" Placeholder="  Last Name">
+            </div> 
+            <div class="form_group2">              
+               <input type="text" name="email_guest" Placeholder="  Email">
+               <input type="number" name="phone_guest" Placeholder="  Phone">
+            </div>
+            <div class="form_group3"> 
+               <input type="password" name="password_guest" Placeholder="  Password">
+               <input type="password" name="confirmpassword_guest" Placeholder="  Confirm Password"> 
+            </div>
           </div>
-          <div class="form_button">
+          <div class="form_button2">
             <input type="submit" value= "checkout">          
           </div>
      </form>     

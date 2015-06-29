@@ -95,20 +95,21 @@ ul.navigation a:hover {
   width: 50px;
   height: 50px;
   position: absolute;
-  left: 100px;
+  left: 200px;
   top: 400px;
   z-index: 1;
-  padding: 20px
+  padding: 20px;
+  
 }
 
 .mover2 {
   width: 50px;
   height: 50px;
   position: absolute;
-  left: 160px;
+  left: 260px;
   top: 300px;
   z-index: 1;
-  padding: 20px
+  padding: 20px;
 
 }
 
@@ -116,10 +117,10 @@ ul.navigation a:hover {
   width: 50px;
   height: 50px;
   position: absolute;
-  left: 260px;
+  left: 360px;
   top: 250px;
   z-index: 1;
-    padding: 20px
+    padding: 20px;
 
 }
 
@@ -127,10 +128,10 @@ ul.navigation a:hover {
   width: 50px;
   height: 50px;
   position: absolute;
-  left: 365px;
+  left: 465px;
   top: 250px;
   z-index: 1;
-    padding: 20px
+    padding: 20px;
 
 }
 
@@ -138,10 +139,10 @@ ul.navigation a:hover {
   width: 50px;
   height: 50px;
   position: absolute;
-  left: 460px;
+  left: 560px;
   top: 300px;
   z-index: 1;
-    padding: 20px
+    padding: 20px;
 
 }
 
@@ -149,44 +150,16 @@ ul.navigation a:hover {
   width: 50px;
   height: 50px;
   position: absolute;
-  left: 525px;
+  left: 625px;
   top: 400px;
   z-index: 1;
-  padding: 20px
+  padding: 20px;
 
 }
 
-/*.mover3 {
-  width: 10px;
-  height: 10px;
-  background-color: black;
-  float: left;
-}
-
-.mover4 {
-  width: 10px;
-  height: 10px;
-  background-color: black;
-  float: left;
-}
-
-.mover5 {
-  width: 10px;
-  height: 10px;
-  background-color: black;
-  float: left;
-}
-
-.mover6 {
-  width: 10px;
-  height: 10px;
-  background-color: black;
-  float: left;
-}
-*/
 .order_header p{
   text-align: center;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 .order_wrapper{
@@ -195,6 +168,7 @@ ul.navigation a:hover {
 
 .order_content{
   width: 1000px;
+  margin: 0 auto;
 }
 
 
@@ -214,18 +188,18 @@ ul.navigation a:hover {
 
 .flavor p{
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
 .about_flavor {
-width: 200px;
+width: 300px;
 margin: 0 auto;
 }
 
 .about_flavor p{
   text-align: left;
-  line-height: 1.3em;
+  line-height: 2em;
 }
 
 .order_selection p{
@@ -239,6 +213,8 @@ margin: 0 auto;
 border: 1px solid black;
 padding-top: 10px;
 font-weight: bold;
+border-radius: 14px;
+
 }
 
 .order_clear {
@@ -247,22 +223,31 @@ font-weight: bold;
 
 #formations {
   width: 1200px;
-  margin: 0 auto;
 }
 
-#formation1 {
-  width:200px;
-  padding: 50px;
-}
 
 #formation1{
   width: 200px;
   margin: 0 auto;
 }
 
+#formation1 .form_text input{
+  width: 250px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+
 #formations2{
   width: 600px;
   margin: 0 auto;
+}
+
+#formations2 .form_text input{
+  width: 250px;
+  height: 50px;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 .formcolumn1{
@@ -272,6 +257,7 @@ font-weight: bold;
 input::-webkit-input-placeholder {
    color: lightgrey;
    text-transform: uppercase;
+    font-size: 1em;
 }
 .form_head p{
   color:black;
@@ -280,10 +266,6 @@ input::-webkit-input-placeholder {
   padding-left: 40px;
 }
 
-.form_text input{
-  width: 250px;
-  height: 50px;
-}
 
 .form_button input {
 border-radius: 14px;
@@ -292,8 +274,22 @@ border: 1px solid grey;
 height: 50px;
 background-color: white;
 text-align: center;
+text-transform: uppercase;
+font-weight: bold;
 }
 
+.form_button2 input {
+border-radius: 14px;
+width: 255px;
+border: 1px solid grey;
+height: 50px;
+background-color: white;
+text-transform: uppercase;
+font-weight: bold;
+text-align: center;
+margin-left: 170px;
+margin-top: 20px;
+}
 
 
 
@@ -365,5 +361,4 @@ p {
   }
 
 .spacer {
-  margin: 200px 0px 100px 0px;
 }
