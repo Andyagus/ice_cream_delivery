@@ -32,8 +32,8 @@ end
 
 post '/order-success' do 
   @title = 'Order Success!'
-  @username = params['name_existing']
-  @password = params['password_existing']
+  @username = params['username']
+  @password = params['Password']
    "Thanks for your order #{@username}"
 end
 

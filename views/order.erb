@@ -21,27 +21,34 @@
     
         <div class = "order_selection">
           <div class = "flavor" > <p> Select a Cone! </p> </div>
+
           <div class = "about_flavor">
            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci praesentium ad expedita sapiente vero commodi, quam exercitationem aliquam sed libero cum earum qui amet nisi? Quos quo excepturi culpa, architecto? </p>
           </div>
+              <form name="quantity" id="numbers_form">
+                <input type="number" data-validate="number" placeholder="1">
+             </form>
           <div class = "order_button"> ORDER NOW </div>
+
         </div>
     </div>
 
     <div class = "order_clear"></div>
       <div class="spacer"></div>
+  
+  
   <div id="formations"> 
     <div id="formation1">
-      <FORM METHOD="POST" ACTION="/order-success" >
+      <FORM name="order_form1" ACTION="/order-success" METHOD="POST"  >
           <div class="form_head"> 
             <p> SIGN IN <p> 
           </div>
           <div class="form_text"> 
-            <input type="text" name="name_existing" placeholder="Email"> 
-            <input type="password" name="password_existing" placeholder="Password">
+            <input type="text" name="username" placeholder="Email" data-validate="email"> 
+            <input type="password" id="Password" name="Password" placeholder="Password">
           </div> <br>
           <div class="form_button">  
-            <input type="submit" value="checkout">
+            <input type="submit" id="submit_form1" value="checkout">
           </div> 
           <div id="guest_continue"> 
             <p> CONTINUE AS GUEST </p>
@@ -53,18 +60,18 @@
 
 
     <div id="formations2">
-      <FORM METHOD="POST" ACTION="/order-signup">  
+      <FORM id="order_form2" METHOD="POST" ACTION="/order-signup">  
           <div class="form_head"> 
             <p> GUEST CHECKOUT <p> 
           </div>
            <div class="form_text">
             <div class="form_group1">
-               <input type="text" name="firstname_guest" Placeholder="  First Name"> 
-               <input type="text" name="lastname_guest" Placeholder="  Last Name">
+               <input type="text" name="firstname_guest" Placeholder="  First Name" data-validate="required"> 
+               <input type="text" name="lastname_guest" Placeholder="  Last Name" data-validate="required">
             </div> 
             <div class="form_group2">              
-               <input type="text" name="email_guest" Placeholder="  Email">
-               <input type="number" name="phone_guest" Placeholder="  Phone">
+               <input type="text" name="email_guest" Placeholder="  Email" data-validate="email">
+               <input type="number" name="phone_guest" Placeholder="  Phone" data-validate="phone">
             </div>
             <div class="form_group3"> 
                <input type="password" name="password_guest" Placeholder="  Password">

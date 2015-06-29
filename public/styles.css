@@ -142,7 +142,7 @@ ul.navigation a:hover {
   left: 560px;
   top: 300px;
   z-index: 1;
-    padding: 20px;
+  padding: 20px;
 
 }
 
@@ -160,6 +160,7 @@ ul.navigation a:hover {
 .order_header p{
   text-align: center;
   font-size: 2.5em;
+  color: #283B40;
 }
 
 .order_wrapper{
@@ -190,16 +191,23 @@ ul.navigation a:hover {
   text-align: center;
   font-size: 1.5em;
   font-weight: bold;
+  color: #283B40;
+
 }
 
 .about_flavor {
-width: 300px;
+width: 250px;
 margin: 0 auto;
+border-left: 1px black solid;
+padding-left: 20px;
+font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
 .about_flavor p{
   text-align: left;
   line-height: 2em;
+  line-height: 1.2em;
+  font-size: 1.2em;
 }
 
 .order_selection p{
@@ -214,6 +222,7 @@ border: 1px solid black;
 padding-top: 10px;
 font-weight: bold;
 border-radius: 14px;
+margin-top: 10px;
 
 }
 
@@ -291,8 +300,17 @@ margin-left: 170px;
 margin-top: 20px;
 }
 
+#numbers_form input{
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  font-size: 2em;
+}
 
-
+#numbers_form p{
+  font-size: 1em;
+  text-align: center;
+}
 
 
 #guest_continue{

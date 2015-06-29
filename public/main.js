@@ -17,6 +17,7 @@ $( document ).ready(function() {
 
 // ORDER (Andy)
 
+
 $(".mover").mousemove(function(event){
       $(".wide_icecream").css('left','-520px');
       $(".flavor p").text("French Vanilla")      
@@ -68,15 +69,16 @@ $( ".order_button" ).click(function() {
       $(".order_content").hide(0);
       $(".order_selection").hide(0); 
       $(".order_header p").hide(0); 
-      $("#formations").show(1000);
+      $("#formations").show(0);
       $("#formations2").hide(0);
-
 });
 
 $( "#guest_continue" ).click(function() {
       $("#formation1").hide(0);
       $("#formations2").show(0);
+
 });
+
 
 
 // BECOME A RUNNER (Jake)
