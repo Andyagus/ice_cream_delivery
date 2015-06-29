@@ -149,6 +149,21 @@ text-align: center;
   z-index: -1;
 }
 
+#title_wrapper {
+  width: 350px;
+  margin-top: 45px;
+  margin-left: 100px;
+  height: 60px;
+  float: left;
+  z-index: +1;
+}
+
+#banner_text {
+  color: 7F796F;
+  font-size: 2.8em;
+  font-weight: normal;
+}
+
 #application_wrapper {
   border: 2px black solid;
   width: 336px;
