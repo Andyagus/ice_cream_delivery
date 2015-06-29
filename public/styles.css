@@ -1,5 +1,5 @@
 body {
-  font-family: Helvetica, arial, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 12px;
   color: #283B3F;
   margin: 0px;
@@ -15,6 +15,8 @@ body {
   width: 60px;
   display: inline-block;
   padding: 20px 0px 0px 35px;
+  position: fixed;
+  z-index: 10;
 }
 
 nav {
@@ -63,18 +65,177 @@ ul.navigation a:hover {
 /*HOME (Preston)*/
 
 
-#home_photo1_wrapper {
-  background-image: url(images/WDI.jpg);
+#home_first_div {
+  background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(255, 169, 212, 0.1) ), url(images/background-ice-cream.jpg);
   background-size: cover;
-  height: 750px
+  height: 750px;
+  margin-top: 10px;
+  min-width: 840px;
+}
+
+#home_intro_words {
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 1.1em
+}
+
+#home_second_div {
+  height: 700px;
+}
+
+#home_iphone {
+  height: 300px;
+  z-index: 2;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  left: 325px;
+  top: 225px;
+}
+
+#home_macbook {
+  height: 500px;
+  z-index: 1;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  bottom: 275px;
+  right: 25px;
+}
+
+#home_second_div {
+  background: white /*linear-gradient( rgba(0, 0, 0, 0), rgba(255, 169, 212, .3)*/ );
+  padding-top: 100px;
+  height: 550px;
+  min-width: 930px;
+}
+
+#fast_and_easy {
+  word-spacing: 5px;
+  letter-spacing: 1.5px;
+
+}
+
+.steps {
+  width: 200px;
+  padding: 50px 50px 10px 50px;
+}
+
+.step_nums {
+  text-align: center;
+  display: inline-block;
+  padding: 0px 150px 0px 140px;
+  font-size: 2em;
+}
+
+.step_description {
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0px 60px 0px 45px;
+  font-size: 1.5em;
+  font-family: font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+}
+
+#home_third_div {
+  height: 650px;
+  background: rgba(152, 159, 191, 1);
+  min-width: 900px;
+}
+
+.cities_photos {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+}
+
+#cities_wrapper {
+  padding-top: 70px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.imgWrap {
+  position: relative;
+  display: inline;
+}
+
+#cities_we_serve {
+  color: #deffff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.imgDescription {
+  position: absolute;
+  color: white;
+  font-size: 2em;
+  z-index: 3;
+  background-color: rgba(29, 106, 154, 0.72);
+  visibility: hidden;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  bottom: 100px;
+}
+
+/*.imgWrap:hover .imgDescription {
+  visibility: visible;
+  position: absolute;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  width: 300px;
+  height: 100px;
+
+  visibility: hidden;
+  opacity: 0;
+  z-index: 3;
+
+  text-align: center;
+
+  -webkit-transition: visibility opacity 0.5s;
+  
 }
 
 
-
-
-
-
-
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 0.7;
+  padding-top: 90px;
+  font-size: 2em;
+}*/
 
 
 /*ORDER (Andy)*/
@@ -186,10 +347,6 @@ footer {
 
 #facebook_link:hover {
   text-decoration: underline;
-}
-
-h3 {
-  letter-spacing: 1px;
 }
 
 p {
