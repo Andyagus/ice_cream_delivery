@@ -26,3 +26,4 @@ post '/congrats' do
   password = params['password']
   erb :congrats
 end
+
