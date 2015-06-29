@@ -483,15 +483,122 @@ margin-top: 20px;
 
 /*BECOME A RUNNER (Jake)*/
 
+#runner_photo_wrapper {
+  background-image: url(images/deliverybanner.jpg);
+  background-size: cover;
+  height: 750px;
+  z-index: -1;
+}
 
+#title_wrapper {
+  width: 350px;
+  margin-top: 45px;
+  margin-left: 100px;
+  height: 60px;
+  float: left;
+  z-index: +1;
+}
 
+#banner_text {
+  color: 7F796F;
+  font-size: 2.8em;
+  font-weight: normal;
+}
 
+#application_wrapper {
+  width: 336px;
+  height: 500px;
+  position: fixed;
+  margin-left: 862px;
+  border: 1px black solid;
+}
 
+#title_apply {
+  height: 50px;
+  width: auto;
+  text-align: center;
+}
 
+#apply_header {
+  font-weight: lighter;
+  color: #283B3F;
+}
 
+#apply_runner_forms {
+  line-height: 20px;
+  text-align: center;
+  line-height: 8px;
+
+}
+
+#apply_runner_forms input{
+}
+
+.app_form {
+  height: 50px;
+  width: 250px;
+  font-size: 16px;
+}
+
+#runner_button {
+  height: 50px;
+  width: 256px;
+  margin-top: 30px;
+
+}
+
+#application_sell {
+ margin-top: 30px;
+ margin-left: 80px;
+ height: 600px;
+ width: 760px;
+ }
+
+#app_sell_header {
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+#sell_text {
+  margin-top: 15px;
+}
+
+.app_sell_header2 {
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+.app_sell_p {
+  font-size: 12px;
+}
 
 /*CONTACT (Jake)*/
 
+#comment_form {
+  /* border: 2px black solid;*/
+   width: 1000px;
+   margin: 0 auto;
+   margin-top: 80px;
+}
+
+#comment_box {
+   border: 1px red solid;
+   width: 550px;
+   height: 200px;
+   resize: none;
+}
+
+#comment_name {
+  width: 160px;
+}
+
+#comment_email {
+  width: 160px;
+}
+
+#comment_submit {
+  width: auto;
+}
 
 
 
