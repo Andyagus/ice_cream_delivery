@@ -1,64 +1,88 @@
+
 <div class = "order_wrapper"> 
+  <div class="order_header"> <p> Choose your Flavor </p> </div>
+    <div class = "order_content">     
+      <div class="order_frame">
+         <div class="ice_creams">
+         <div class="mover"></div>
+         <div class="mover2"></div>
+         <div class="mover3"></div>
+         <div class="mover4"></div>
+         <div class="mover5"></div>
+         <div class="mover6"></div>
 
-  <div class = "order_content">
-      <h2> Choose your Ice Cream </h2>
-    
-      <div class = "order_mainimage">
-        <img src="images/order_icecream.png">
-      </div>
-  
-     
-      <div class = "order_selection">
-        <h4> Vanilla </h4>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci praesentium ad expedita sapiente vero commodi, quam exercitationem aliquam sed libero cum earum qui amet nisi? Quos quo excepturi culpa, architecto? </p>
-      </div>
-      
-      <div class = "order_button">
-        <p> Order now </p>
-      </div>
-
-  </div>
-
-  <div class = "order_forms">
-    <div class = "order_signin">
-        <form action="/made-contact" method="POST">
+            <img src="images/allcones22.png" class="wide_icecream"></div>
           
-          <div class="order_signin_email">
-              <h4> Username (Email) </h4>
-              <label for="name"></label>
-              <input type="text" name="name">
-           </div>
-           <div class="order_signin_password"> 
-              <h4> Password </h4>
-              <label for="email"></label>
-              <input type="text" name="email">
-              <input type="submit">
-            </div>
-              <div class = "order_clear"></div>
-        </form>
+       </div>
+
+         
+          <!-- <img src="images/order_icecream.png"> -->
+    </div>
+    
+        <div class = "order_selection">
+          <div class = "flavor" > <p> Select a Cone! </p> </div>
+
+          <div class = "about_flavor">
+           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci praesentium ad expedita sapiente vero commodi, quam exercitationem aliquam sed libero cum earum qui amet nisi? Quos quo excepturi culpa, architecto? </p>
+          </div>
+              <form name="quantity" id="numbers_form">
+                <input type="number" data-validate="number" placeholder="1">
+             </form>
+          <div class = "order_button"> ORDER NOW </div>
+
+        </div>
     </div>
 
-    <div class = "order_continueguest">
-        <form action="/made-contact" method="POST">
-            <h4> First Name </h4>
-            <label for="name"></label>
-            <input type="text" name="name">
-            <h4> Last Name </h4>
-            <label for="name"></label>
-            <input type="text" name="name">
-            <h4> Email </h4>
-            <label for="email"></label>
-            <input type="text" name="email">
-            <h4> Phone Number </h4>
-            <label for="phone"></label>
-            <input type="text" name="phone">
-            <input type="submit">
-            <h4> Password </h4>
-            <label for="phone"></label>
-            <input type="password" name="phone">
-            <input type="submit">
-        </form>  
-    </div>   
-  </div>
     <div class = "order_clear"></div>
-</div>
+      <div class="spacer"></div>
+  
+  
+  <div id="formations"> 
+    <div id="formation1">
+      <FORM name="order_form1" ACTION="/order-success" METHOD="POST"  >
+          <div class="form_head"> 
+            <p> SIGN IN <p> 
+          </div>
+          <div class="form_text"> 
+            <input type="text" name="username" placeholder="Email" data-validate="email"> 
+            <input type="password" id="Password" name="Password" placeholder="Password">
+          </div> <br>
+          <div class="form_button">  
+            <input type="submit" id="submit_form1" value="checkout">
+          </div> 
+          <div id="guest_continue"> 
+            <p> CONTINUE AS GUEST </p>
+          </div>
+
+      </form>
+    </div>
+       
+
+
+    <div id="formations2">
+      <FORM id="order_form2" METHOD="POST" ACTION="/order-signup">  
+          <div class="form_head"> 
+            <p> GUEST CHECKOUT <p> 
+          </div>
+           <div class="form_text">
+            <div class="form_group1">
+               <input type="text" name="firstname_guest" Placeholder="  First Name" data-validate="required"> 
+               <input type="text" name="lastname_guest" Placeholder="  Last Name" data-validate="required">
+            </div> 
+            <div class="form_group2">              
+               <input type="text" name="email_guest" Placeholder="  Email" data-validate="email">
+               <input type="number" name="phone_guest" Placeholder="  Phone" data-validate="phone">
+            </div>
+            <div class="form_group3"> 
+               <input type="password" name="password_guest" Placeholder="  Password">
+               <input type="password" name="confirmpassword_guest" Placeholder="  Confirm Password"> 
+            </div>
+          </div>
+          <div class="form_button2">
+            <input type="submit" value= "checkout">          
+          </div>
+     </form>     
+    </div> <!-- formations2 end -->
+  </div> <!-- large formations end -->
+
+</div> <!-- main wrapper  -->

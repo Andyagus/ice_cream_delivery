@@ -23,9 +23,28 @@ get '/contact' do
 end
 
 post '/congrats' do 
-  @title = 'Congradulations!'
+  @title = 'Congratulations!'
   @username = params['username']
   password = params['password']
   erb :congrats
+end
+
+
+post '/order-success' do 
+  @title = 'Order Success!'
+  @username = params['username']
+  @password = params['Password']
+   "Thanks for your order #{@username}"
+end
+
+post '/order-signup' do 
+  @title = 'Order Success!'
+  @guest_firstname = params['firstname_guest']
+  @guest_lastname = params['lastname_guest']
+  @guest_password = params['email_guest']
+  @guest_phone = params['phone_guest']
+  @guest_password = params['password_guest']
+  @guest_passwordconfirm = params['confirmpassword_guest']
+    "Thanks for signing up! #{@guest_firstname}"
 end
 

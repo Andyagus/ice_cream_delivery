@@ -240,63 +240,246 @@ ul.navigation a:hover {
 
 /*ORDER (Andy)*/
 
-.order_wrapper{
-  border: 1px black solid;
+.order_frame {
+  width: 514px; 
+  height: 400px;
+  float: left;
+  overflow: hidden;
 }
 
-.order_content h2{
-  color:black;
-  text-align: center;
+.wide_icecream {
+  position: relative;
+  left: 0px;
 }
+
+.mover {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 200px;
+  top: 400px;
+  z-index: 1;
+  padding: 20px;
+  
+}
+
+.mover2 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 260px;
+  top: 300px;
+  z-index: 1;
+  padding: 20px;
+
+}
+
+.mover3 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 360px;
+  top: 250px;
+  z-index: 1;
+    padding: 20px;
+
+
+}
+
+.mover4 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 465px;
+  top: 250px;
+  z-index: 1;
+    padding: 20px;
+
+}
+
+.mover5 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 560px;
+  top: 300px;
+  z-index: 1;
+  padding: 20px;
+
+
+}
+
+.mover6 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 625px;
+  top: 400px;
+  z-index: 1;
+  padding: 20px;
+
+}
+
+.order_header p{
+  text-align: center;
+  font-size: 2.5em;
+  color: #283B40;
+}
+
+.order_wrapper{
+  width: 1200px;
+}
+
+.order_content{
+  width: 1000px;
+  margin: 0 auto;
+}
+
 
 .order_mainimage img{
-  width: 600px;
+  width: 650px;
   height: auto;
-  padding-left: 300px;
+  float: left;
 }
 
 .order_selection{
-  margin: 0 auto;
   text-align: center;
   width: 300px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 100px;
 }
 
-.order_selection h4{
+.flavor p{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #283B40;
+
+}
+
+.about_flavor {
+width: 250px;
+margin: 0 auto;
+border-left: 1px black solid;
+padding-left: 20px;
+font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+
+.about_flavor p{
+  text-align: left;
+  line-height: 2em;
+  line-height: 1.2em;
+  font-size: 1.2em;
 }
 
 .order_selection p{
 }
 
-.order_forms{
-}
-
-
-.order_forms form{
-  margin: 0 auto;
-}
-
-.order_signin_email{
-  float: left;
-}
-
-.order_signin_password{
-  float: left;
-}
 
 .order_button {
+width: 100px;
+height: 25px;
 margin: 0 auto;
-width: 150px;
-border: 1px black solid;
-}
-
-.order_button p {
-text-align: center;
+border: 1px solid black;
+padding-top: 10px;
+font-weight: bold;
+border-radius: 14px;
+margin-top: 10px;
 
 }
 
 .order_clear {
   clear: both;
 }
+
+#formations {
+  width: 1200px;
+}
+
+
+#formation1{
+  width: 200px;
+  margin: 0 auto;
+}
+
+#formation1 .form_text input{
+  width: 250px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+
+#formations2{
+  width: 600px;
+  margin: 0 auto;
+}
+
+#formations2 .form_text input{
+  width: 250px;
+  height: 50px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.formcolumn1{
+  float: left
+}
+
+input::-webkit-input-placeholder {
+   color: lightgrey;
+   text-transform: uppercase;
+    font-size: 1em;
+}
+.form_head p{
+  color:black;
+  font-size: 1.5em;
+  text-align: center;
+  padding-left: 40px;
+}
+
+
+.form_button input {
+border-radius: 14px;
+width: 255px;
+border: 1px solid grey;
+height: 50px;
+background-color: white;
+text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.form_button2 input {
+border-radius: 14px;
+width: 255px;
+border: 1px solid grey;
+height: 50px;
+background-color: white;
+text-transform: uppercase;
+font-weight: bold;
+text-align: center;
+margin-left: 170px;
+margin-top: 20px;
+}
+
+#numbers_form input{
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  font-size: 2em;
+}
+
+#numbers_form p{
+  font-size: 1em;
+  text-align: center;
+}
+
+
+#guest_continue{
+  color: grey;
+}
+
 
 /*BECOME A RUNNER (Jake)*/
 
@@ -355,5 +538,4 @@ p {
   }
 
 .spacer {
-  margin: 200px 0px 100px 0px;
 }
