@@ -377,17 +377,61 @@ font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Tim
 }
 
 
-.order_button {
-width: 100px;
-height: 25px;
-margin: 0 auto;
-border: 1px solid black;
-padding-top: 10px;
-font-weight: bold;
-border-radius: 14px;
-margin-top: 10px;
 
-}
+
+        .order_button {
+        background-color:#9827d3;
+        width:150px;
+        display:inline-block;
+        font-family: 'Open Sans', sans-serif;
+        font-size:12px;
+        text-decoration:none;
+        color:#fff;
+        position:relative;
+        margin-top:40px;
+        padding-bottom:10px;
+        padding-top:10px;
+        background-image: linear-gradient(bottom, rgb(168,48,232) 100%, rgb(141,32,196) 0%);
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        box-shadow: inset 0px 1px 0px #ca73f8, 0px 5px 0px 0px #6a1099, 0px 10px 5px #999;
+      }
+
+      .order_button:active {
+        top:3px;
+        background-image: linear-gradient(bottom, rgb(168,48,232) 0%, rgb(141,32,196) 100%);
+        box-shadow: inset 0px 4px 1px #7215a3, 0px 2px 0px 0px #6a1099, 0px 5px 3px #999;
+      }
+
+      .order_button::before {
+        background-color:#fff;
+        background-image:url(images/logo.gif);
+        background-size: 30px 30px;
+        background-repeat:no-repeat;
+        background-position:center center;
+        border-left:solid 1px #CCC;
+        border-top:solid 1px #CCC;
+        border-right:solid 1px #CCC;
+        content:"";
+        width:148px;
+        height:40px;
+        position:absolute;
+        top:-30px;
+        left:0px;
+        margin-top:-11px;
+        z-index:-1;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+
+      .order_button:active::before {
+        top: -33px; 
+        box-shadow: 0px 3px 0px #ccc;
+      }
+
+
+
+
 
 .order_clear {
   clear: both;
